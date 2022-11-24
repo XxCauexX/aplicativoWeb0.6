@@ -1,0 +1,214 @@
+@media (min-width: 768px){
+    body {
+        margin: 0;
+        background-color: #ffffff;
+    }
+
+    :root {
+        --cor-destaque: #FFF0F5;
+    }
+
+    #nome {
+        font-family: 'Dancing Script', cursive;
+        font-size: 35px;
+    }
+
+    #header{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+        background-image: linear-gradient(to right,blueviolet, #914172 );
+        padding: 50px 10px 30px 15px;
+    }
+
+    #marca {
+        background-color: rgb(65, 25, 102);
+        padding: 10px;
+    } 
+
+    #marca * {
+        vertical-align: middle;
+    }
+
+
+    #marca img {
+        width: 55px;
+        margin-right: 10px;
+    }
+
+    #marca span {
+        font-family: "negrito";
+        font-size: 150%;
+        color: var(--cor-destaque);
+    }
+
+    #boasvindas {
+        font-family: 'Dancing Script', cursive;
+        font-size: 500%;
+        display: block;
+    }
+
+    #slogan {
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 200%;
+    }
+
+    /*CONTAINER*/
+
+    #container {
+        padding: 10px;
+        display: flex;
+        margin-top: 20px;
+    }
+
+    /*seção da esquerda*/
+
+    #esquerda {
+        width: 60%;
+        padding: 10px;
+        
+    }
+
+    #lancamentos {
+        font-family: 'Dancing Script', cursive; 
+        font-size: 230%;
+    }
+
+    #novoLancamento {
+        float: right;
+        border: none;
+        background-color: blueviolet;
+        color: rgb(0, 0, 0);
+        font-size: 120%;
+        padding: 10px;
+        border-radius: 10px;
+        
+    }
+
+    #novoLancamento:hover {
+        cursor: pointer;
+    }
+
+    #novoLancamento:hover {
+        background-image: linear-gradient(to right,blueviolet, rgb(73, 16, 126) );
+        transition: 5s;
+    }
+
+    #formularioLancamento{
+        display: none;
+        margin-top: 40px;
+        background-color: aliceblue;
+        padding: 20px;
+        border-radius: 20px;
+        font-family: 'Fjalla One', sans-serif; 
+    }
+
+    #formularioLancamento input {
+        display: block;
+        margin: 5px 0px 20px 0px;
+        border: 1px solid rgb(119, 11, 182);
+        height: 30px;
+        border-radius: 10px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 110%;
+        padding-left: 10px;
+    }
+
+    #formularioLancamento label {
+        font-size: 23px;
+    }
+
+    #blocoTipoLancamento {
+        margin: 5px 0px 5px 0px;
+    }
+
+    #blocoTipoLancamento input {
+        display: inline;
+        margin: 0px 0px ;
+        vertical-align: middle;
+    }
+
+    #blocoTipoLancamento label {
+        vertical-align: middle;
+        font-family: 'Dancing Script', cursive;
+        font-size: 120%;
+        margin-right: 10px;
+    }
+
+    #descricao {
+        width: 70%
+    }
+
+    #botaoLancar {
+        border: none;
+        outline: none;
+        background-color: blueviolet;
+        color: aliceblue;
+        font-family: 'Fjalla One', sans-serif;
+        padding: 10px 20px;
+        font-size: 120%;
+        border-radius: 5px;
+    }
+
+    #areaLancamentos {
+        margin-top: 30px;
+    }
+
+    .blocoLancamento {
+        background-color: aliceblue;
+        padding: 25px;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .blocoLancamento img {
+        width: 50px;
+    }
+
+    .descricaoLancamentos {
+        float: right;
+        text-align: right;
+    }
+
+    .descricaoLancamentos span {
+        display: block;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    .valor {
+        font-family: 'Fjalla One', sans-serif !important;
+        font-size: 200%;
+    }
+
+    .gasto {
+        color: red;
+    }
+
+    .entrada {
+        color: #22af20;
+    }
+
+    #direita {
+        background-color: aliceblue;
+        border-radius: 20px;
+        width: 40%;
+        padding: 30px;
+        text-align: right;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    #direita img {
+        width: 30px;
+    }
+
+    #labelRenda {
+        font-size: 250%;
+        display: block;
+    }
+
+    #renda {
+        font-size: 500%;
+
+        
+    }
+
+}
